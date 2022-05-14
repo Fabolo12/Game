@@ -6,7 +6,7 @@ import lesson16.model.AnimalType;
 import lesson16.user.UserInputServices;
 
 public class Main {
-    private static final UserInputServices INPUT_SERVICES = new UserInputServices();
+    public static final UserInputServices INPUT_SERVICES = new UserInputServices();
 
     public static void main(String[] args) {
         final AnimalType animalType = getAnimalType();

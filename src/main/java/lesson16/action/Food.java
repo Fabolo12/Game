@@ -7,7 +7,7 @@ public class Food implements Action {
     public void doAction(Animal animal) {
         animal.addHungry(5);
         animal.addClear(-2);
-        System.out.println("Живтное покормлено. Сытость +5, Чистота -2");
-        System.out.printf("Сытость: %f, Чистота: %f%n", animal.getHungry(), animal.getClear());
+        System.out.println(animal.getName() + " покормлено.");
+        animal.showState();
     }
 }
