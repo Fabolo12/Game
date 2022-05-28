@@ -9,6 +9,7 @@ public enum ActionType {
     WORK("Работать", new Work()),
     CURE("Лечение", new Cure()),
     SHOW("Показать состояние", new Show()),
+    HISTORY("Показать историю состояния", new History()),
     EXIT("Выход", new Exit());
 
     private final String name;
